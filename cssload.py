@@ -18,19 +18,16 @@ def rgb_to_hex(r, g, b):
 
 
 def calculate_middle_color(hex_colors: list[str]):
-    # 轉換 HEX 為 RGB 顏色
     rgb_colors = [hex_to_rgb(color) for color in hex_colors]
 
-    # 計算每個顏色通道的平均值
     avg_r = sum(color[0] for color in rgb_colors) // len(rgb_colors)
     avg_g = sum(color[1] for color in rgb_colors) // len(rgb_colors)
     avg_b = sum(color[2] for color in rgb_colors) // len(rgb_colors)
 
-    # 轉換回 HEX
     return rgb_to_hex(avg_r, avg_g, avg_b)
 
 
-def UpdateCss(css: str, colors: list[str], time: int):
+def GetHtml(css: str, colors: list[str], time: int):
     middle_color = calculate_middle_color(colors)
     css = css.replace("MEANCOLOR", middle_color)
 
@@ -52,6 +49,12 @@ css = st.session_state.css
 colors = ["#eb694e", "#f30ba4", "#feea83", "#aa8ef5", "#f8c093"]
 colors = [st.color_picker(f"選擇顏色 {i + 1}", v) for i, v in enumerate(colors)]
 
-loop_time = st.number_input("循環週期 : ", value=20)
+time = st.number_input(
+    "循環週期(s)", min_value=1, max_value=100, value=20, step=1, format="%d"
+)
 
-components.html(f"<style>{UpdateCss(css, colors, loop_time)}</style>", height=400)
+html = GetHtml(css, colors, time)
+
+components.html(html, height=400)
+
+st.download_button(label="下載", data=html, file_name="show.html", mime="text/html")
