@@ -46,48 +46,63 @@ body {
             50vmax 50vmax;
     }
 
-    25% {
+    20% {
         background-size:
-            100vmax 100vmax,
+            100vmax 100vmax, /* 1st changes */
+            80vmax 80vmax,   /* rest stay same */
             90vmax 90vmax,
-            100vmax 100vmax,
-            90vmax 90vmax,
-            60vmax 60vmax;
-        background-position:
-            -60vmax -90vmax,
-            50vmax -40vmax,
-            0vmax -20vmax,
-            -40vmax -20vmax,
-            40vmax 60vmax;
-    }
-
-    50% {
-        background-size:
-            80vmax 80vmax,
             110vmax 110vmax,
-            80vmax 80vmax,
-            60vmax 80vmax,
-            80vmax 80vmax;
+            90vmax 90vmax;
         background-position:
-            -50vmax -70vmax,
-            40vmax -30vmax,
-            10vmax 0vmax,
-            20vmax 10vmax,
-            30vmax 70vmax;
+            -40vmax -85vmax,
+            77vmax -21vmax,
+            15vmax 15vmax,
+            -30vmax -10vmax,
+            58vmax 22vmax;
     }
 
-    75% {
+    40% {
         background-size:
+            100vmax 100vmax,
+            90vmax 90vmax,   /* 2nd changes */
             90vmax 90vmax,
-            90vmax 90vmax,
+            110vmax 110vmax,
+            90vmax 90vmax;
+        background-position:
+            0vmax -45vmax,
+            67vmax -23vmax,
+            66vmax -5vmax,
+            -66vmax -2vmax,
+            3vmax 80vmax;
+    }
+
+    60% {
+        background-size:
             100vmax 100vmax,
             90vmax 90vmax,
-            70vmax 70vmax;
+            100vmax 100vmax, /* 3rd changes */
+            110vmax 110vmax,
+            90vmax 90vmax;
         background-position:
-            -50vmax -40vmax,
-            50vmax -30vmax,
-            20vmax 0vmax,
-            -10vmax 10vmax,
-            40vmax 60vmax;
+            -35vmax -60vmax,
+            33vmax -10vmax,
+            76vmax 0vmax,
+            -80vmax -55vmax,
+            66vmax -80vmax;
+    }
+
+    80% {
+        background-size:
+            100vmax 100vmax,
+            90vmax 90vmax,
+            100vmax 100vmax,
+            90vmax 90vmax,  /* 4th changes */
+            90vmax 90vmax;
+        background-position:
+            -82vmax -35vmax,
+            -35vmax 2vmax,
+            49vmax -3vmax,
+            -5vmax -6vmax,
+            65vmax 73vmax;
     }
 }
