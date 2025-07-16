@@ -46,63 +46,63 @@ body {
             50vmax 50vmax;
     }
     
-    20% {
-        background-size:
-            100vmax 100vmax, /* 1st changes */
-            80vmax 80vmax,   /* rest stay same */
-            90vmax 90vmax,
-            110vmax 110vmax,
-            90vmax 90vmax;
-        background-position:
-            -55vmax -60vmax,
-            77vmax -21vmax,
-            15vmax 15vmax,
-            -30vmax -10vmax,
-            58vmax -22vmax;
-    }
-
-    40% {
-        background-size:
-            100vmax 100vmax,
-            90vmax 90vmax,   /* 2nd changes */
-            90vmax 90vmax,
-            110vmax 110vmax,
-            90vmax 90vmax;
-        background-position:
-            0vmax -23vmax,
-            67vmax -23vmax,
-            66vmax -5vmax,
-            -66vmax -2vmax,
-            3vmax -50vmax;
-    }
-
-    60% {
-        background-size:
-            100vmax 100vmax,
-            90vmax 90vmax,
-            100vmax 100vmax, /* 3rd changes */
-            110vmax 110vmax,
-            90vmax 90vmax;
-        background-position:
-           35vmax -60vmax,
-            33vmax -10vmax,
-            76vmax 0vmax,
-            -80vmax -55vmax,
-            66vmax -80vmax;
-    }
-
-    80% {
-        background-size:
-            100vmax 100vmax,
-            90vmax 90vmax,
-            100vmax 100vmax,
-            90vmax 90vmax,  /* 4th changes */
-            90vmax 90vmax;
-        background-position:
-            80vmax -35vmax,
-            -35vmax 2vmax,
-            49vmax -35vmax,
-            -5vmax -6vmax,
-            65vmax -73vmax;
+    20% { 
+        background-size: 
+            100vmax 100vmax, /* 1st changes */ 
+            80vmax 80vmax,   /* rest stay same */ 
+            90vmax 90vmax, 
+            110vmax 110vmax, 
+            90vmax 90vmax; 
+        background-position: 
+            -55vmax -60vmax, 
+            77vmax -21vmax, 
+            15vmax 15vmax, 
+            -30vmax -10vmax, 
+            58vmax -22vmax; 
+    } 
+ 
+    40% { 
+        background-size: 
+            100vmax 100vmax, 
+            90vmax 90vmax,   /* 2nd changes */ 
+            90vmax 90vmax, 
+            110vmax 110vmax, 
+            90vmax 90vmax; 
+        background-position: 
+            0vmax -23vmax, 
+            67vmax -23vmax, 
+            66vmax -5vmax, 
+            -66vmax -2vmax, 
+            3vmax -50vmax; 
+    } 
+ 
+    60% { 
+        background-size: 
+            100vmax 100vmax, 
+            90vmax 90vmax, 
+            100vmax 100vmax, /* 3rd changes */ 
+            110vmax 110vmax, 
+            90vmax 90vmax; 
+        background-position: 
+           35vmax -60vmax, 
+            27vmax -10vmax, 
+            76vmax 0vmax, 
+            -80vmax -55vmax, 
+            66vmax -80vmax; 
+    } 
+ 
+    80% { 
+        background-size: 
+            100vmax 100vmax, 
+            90vmax 90vmax, 
+            100vmax 100vmax, 
+            90vmax 90vmax,  /* 4th changes */ 
+            90vmax 90vmax; 
+        background-position: 
+            -50vmax -35vmax, 
+            35vmax -12vmax, 
+            49vmax -35vmax, 
+            -5vmax -6vmax, 
+            65vmax -73vmax; 
     }
 }
