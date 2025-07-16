@@ -45,7 +45,7 @@ body {
             -30vmax -10vmax,
             50vmax 50vmax;
     }
-
+    
     20% {
         background-size:
             100vmax 100vmax, /* 1st changes */
@@ -54,11 +54,11 @@ body {
             110vmax 110vmax,
             90vmax 90vmax;
         background-position:
-            -40vmax -85vmax,
+            -55vmax -60vmax,
             77vmax -21vmax,
             15vmax 15vmax,
             -30vmax -10vmax,
-            58vmax 22vmax;
+            58vmax -22vmax;
     }
 
     40% {
@@ -69,11 +69,11 @@ body {
             110vmax 110vmax,
             90vmax 90vmax;
         background-position:
-            0vmax -45vmax,
+            0vmax -23vmax,
             67vmax -23vmax,
             66vmax -5vmax,
             -66vmax -2vmax,
-            3vmax 80vmax;
+            3vmax -50vmax;
     }
 
     60% {
@@ -84,7 +84,7 @@ body {
             110vmax 110vmax,
             90vmax 90vmax;
         background-position:
-            -35vmax -60vmax,
+           35vmax -60vmax,
             33vmax -10vmax,
             76vmax 0vmax,
             -80vmax -55vmax,
@@ -99,10 +99,10 @@ body {
             90vmax 90vmax,  /* 4th changes */
             90vmax 90vmax;
         background-position:
-            -82vmax -35vmax,
+            80vmax -35vmax,
             -35vmax 2vmax,
-            49vmax -3vmax,
+            49vmax -35vmax,
             -5vmax -6vmax,
-            65vmax 73vmax;
+            65vmax -73vmax;
     }
 }
